@@ -1,16 +1,20 @@
 # aspire-nextjs-keycloak
 
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-20.9.0+-5FA04E?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+
 Example project using [Aspire](https://aspire.dev/) with a [Next.js](https://nextjs.org/) ([React](https://react.dev/)) frontend, an [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet/apis) backend, and [Keycloak](https://www.keycloak.org/) for authentication.
 
-## Requirements
+## 📋 Requirements
 
 This project requires the following:
 
-- [.NET](https://dotnet.microsoft.com/) SDK 10.0.100 or later
+- [.NET](https://dotnet.microsoft.com/) SDK 10.0 or later
 - [Node.js](https://nodejs.org/) 20.9.0 or later
 - [Docker Desktop](https://www.docker.com/) or [Podman](https://podman.io/)
 
-## Running
+## 🚀 Running
 
 To run this project, do the following:
 
@@ -26,7 +30,7 @@ The default users are:
 | alice | alice |
 | bob | bob |
 
-## Projects
+## 🗂️ Projects
 
 ### AspireNextjsKeycloak.AppHost
 
@@ -55,6 +59,6 @@ A Next.js frontend using the [App Router](https://nextjs.org/docs/app) and [Reac
 - **[Better Auth](https://www.better-auth.com/)** - Handles the auth flows
 - **[Material UI](https://mui.com/material-ui/) (a.k.a. MUI)** - Provides [Material Design 2](https://m2.material.io/)-based components for React
 
-## Notice
+## ⚠️ Notice
 
 Please do not use the realm data from this repository in production as the secrets are exposed to the public.
