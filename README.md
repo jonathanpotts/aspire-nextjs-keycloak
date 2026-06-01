@@ -49,7 +49,7 @@ An ASP.NET Core [minimal APIs](https://learn.microsoft.com/aspnet/core/fundament
 
 - **[Aspire.Keycloak.Authentication](https://aspire.dev/integrations/security/keycloak/)** - Handles configuring authentication settings for Keycloak
 
-### AspireNextjsKeycloak.Web
+### webfrontend
 
 A Next.js frontend using the [App Router](https://nextjs.org/docs/app) and [React Server Components](https://react.dev/reference/rsc/server-components) that authenticates the user and displays data from the backend.
 

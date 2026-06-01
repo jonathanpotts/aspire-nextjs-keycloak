@@ -35,7 +35,7 @@ var keycloakSecret = builder.AddParameter(
 var keycloakScope = builder.AddParameter("keycloak-scope", "apiservice");
 
 var webFrontend = builder
-    .AddJavaScriptApp("webfrontend", "../AspireNextjsKeycloak.Web")
+    .AddJavaScriptApp("webfrontend", "../webfrontend")
     .WithHttpEndpoint(3000, env: "PORT")
     .WithExternalHttpEndpoints()
     .WithEnvironment("BETTER_AUTH_SECRET", betterAuthSecret)
