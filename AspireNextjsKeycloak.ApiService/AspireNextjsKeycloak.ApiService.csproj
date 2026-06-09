@@ -5,8 +5,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Aspire.Keycloak.Authentication" Version="13.4.2-preview.1.26303.6" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference
+      Include="Aspire.Keycloak.Authentication"
+      Version="13.4.3-preview.1.26305.13"
+    />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AspireNextjsKeycloak.ServiceDefaults\AspireNextjsKeycloak.ServiceDefaults.csproj" />

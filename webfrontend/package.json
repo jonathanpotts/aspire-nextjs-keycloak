@@ -12,13 +12,13 @@
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@mui/material": "^9.0.1",
-    "@mui/material-nextjs": "^9.0.1",
+    "@mui/material": "^9.1.0",
+    "@mui/material-nextjs": "^9.1.0",
     "@opentelemetry/exporter-trace-otlp-grpc": "^0.205.0",
     "@opentelemetry/sdk-trace-base": "^2.7.1",
     "@vercel/otel": "^2.1.2",
-    "better-auth": "^1.6.14",
-    "next": "~16.2.7",
+    "better-auth": "^1.6.15",
+    "next": "~16.2.9",
     "react": "~19.2.7",
     "react-dom": "~19.2.7"
   },
@@ -28,17 +28,14 @@
     "@types/react": "~19.2.16",
     "@types/react-dom": "~19.2.3",
     "eslint": "^9.39.4",
-    "eslint-config-next": "~16.2.7",
+    "eslint-config-next": "~16.2.9",
     "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.8.3",
+    "prettier": "^3.8.4",
     "typescript": "^5.9.3"
   },
   "allowScripts": {
     "sharp@0.34.5": true,
-    "protobufjs@7.6.2": true,
-    "unrs-resolver@1.12.2": true
-  },
-  "overrides": {
-    "kysely": "~0.28.17"
+    "unrs-resolver@1.12.2": true,
+    "protobufjs@7.6.3": true
   }
 }
