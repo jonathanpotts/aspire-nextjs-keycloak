@@ -12,19 +12,19 @@
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@mui/material": "^9.1.0",
-    "@mui/material-nextjs": "^9.1.0",
+    "@mui/material": "^9.1.1",
+    "@mui/material-nextjs": "^9.1.1",
     "@opentelemetry/exporter-trace-otlp-grpc": "^0.205.0",
-    "@opentelemetry/sdk-trace-base": "^2.7.1",
-    "@vercel/otel": "^2.1.2",
-    "better-auth": "^1.6.15",
+    "@opentelemetry/sdk-trace-base": "^2.1.0",
+    "@vercel/otel": "^2.1.3",
+    "better-auth": "^1.6.19",
     "next": "~16.2.9",
     "react": "~19.2.7",
     "react-dom": "~19.2.7"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
-    "@types/node": "^20.19.42",
+    "@types/node": "^20.19.43",
     "@types/react": "~19.2.16",
     "@types/react-dom": "~19.2.3",
     "eslint": "^9.39.4",
@@ -36,6 +36,6 @@
   "allowScripts": {
     "sharp@0.34.5": true,
     "unrs-resolver@1.12.2": true,
-    "protobufjs@7.6.3": true
+    "protobufjs@7.6.4": true
   }
 }
