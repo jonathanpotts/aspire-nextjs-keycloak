@@ -43,7 +43,7 @@ An [Aspire AppHost](https://aspire.dev/get-started/app-host/) which handles orch
 
 ### AspireNextjsKeycloak.ApiService
 
-An ASP.NET Core [minimal APIs](https://learn.microsoft.com/aspnet/core/fundamentals/apis?view=aspnetcore-10.0) backend which requires authorization from Keycloak.
+An ASP.NET Core [minimal APIs](https://learn.microsoft.com/aspnet/core/fundamentals/apis?view=aspnetcore-10.0) backend which requires authentication from Keycloak.
 
 **Uses:**
 
