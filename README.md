@@ -41,8 +41,8 @@ An [Aspire AppHost](https://aspire.dev/get-started/app-host/) which handles orch
 
 **Uses:**
 
-- **[Aspire.Hosting.Keycloak](https://aspire.dev/integrations/security/keycloak/)** - Handles starting up the Keycloak container and importing the realm data
 - **[Aspire.Hosting.JavaScript](https://aspire.dev/integrations/frameworks/javascript/)** - Handles launching and configuring the Node.js-based frontend project
+- **[Aspire.Hosting.Keycloak](https://aspire.dev/integrations/security/keycloak/)** - Handles starting up the Keycloak container and importing the realm data
 
 ### AspireNextjsKeycloak.ApiService
 
@@ -58,9 +58,9 @@ A Next.js frontend using the [App Router](https://nextjs.org/docs/app) and [Reac
 
 **Uses:**
 
-- **[OpenTelemetry](https://nextjs.org/docs/app/guides/open-telemetry)** - Adds observability to the Next.js server (modified to support gRPC endpoints when using the Node.js runtime)
 - **[Better Auth](https://www.better-auth.com/)** - Handles the auth flows
 - **[Material UI](https://mui.com/material-ui/) (a.k.a. MUI)** - Provides [Material Design 2](https://m2.material.io/)-based components for React
+- **[OpenTelemetry](https://nextjs.org/docs/app/guides/open-telemetry)** - Adds observability to the Next.js server (modified to support gRPC endpoints when using the Node.js runtime)
 
 ## ⚠️ Notice
 
