@@ -16,6 +16,9 @@ This project requires the following:
 
 ## 🚀 Running
 
+> [!NOTE]
+> Podman requires additional configuration. See the [Aspire prerequisites](https://aspire.dev/get-started/prerequisites/) for setup instructions.
+
 To run this project, do the following:
 
 1. Start Docker Desktop or Podman if it is not already running
